@@ -1,5 +1,3 @@
-test the provided Express.js application using Postman, you can follow these step-by-step instructions:
-
 1. Start the Express Server:
 Make sure your Express server is running. If it's not running, navigate to the project directory in the terminal and run the command:
 
@@ -9,6 +7,7 @@ node index.js
 
 
 2. Test the Login Endpoint:
+
 Open Postman.
 
 Create a new request.
@@ -51,8 +50,8 @@ In the Body section, select "raw" and set the content type to JSON. Add the foll
 ```json
 {
   "No": 101,
-  "Name": "John Doe",
-  "Address": "123 Main St"
+  "Name": "Meet Vasani",
+  "Address": "Valsad"
 }
 ```
 Send the request.
